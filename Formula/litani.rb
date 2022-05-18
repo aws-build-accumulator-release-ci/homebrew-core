@@ -4,10 +4,9 @@ class Litani < Formula
   desc "Metabuild system"
   homepage "https://awslabs.github.io/aws-build-accumulator/"
   url "https://github.com/awslabs/aws-build-accumulator.git",
-      tag:      "1.24.0",
-      revision: "93cb710327388b69f82cc3bd897d1ad7cddb6eb4"
+      tag:      "1.25.0",
+      revision: "ee931df881f3a7a935691c910d60864513d3f0fb"
   license "Apache-2.0"
-  revision 1
 
   bottle do
     sha256 cellar: :any_skip_relocation, arm64_monterey: "cbdf30cfa38a3df1c9421161e744d6c8b35fb8faaaed8fdcbec4c6d0e4634fe0"
